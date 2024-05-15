@@ -219,7 +219,7 @@ class TimerState extends State<SimpleTimer> with SingleTickerProviderStateMixin 
   }
 
   TextStyle getProgressTextStyle() {
-    return TextStyle(fontSize: Theme.of(context).textTheme.headline1!.fontSize).merge(widget.progressTextStyle);
+    return TextStyle(fontSize: Theme.of(context).textTheme.displayLarge!.fontSize).merge(widget.progressTextStyle);
   }
 
   @override
